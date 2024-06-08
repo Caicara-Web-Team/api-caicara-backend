@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: caicara-back-end
+  web:
+    locale: pt_BR
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/caicara_db?useSSL=false&serverTimezone=America/Sao_paulo" #${DATABASE_URL}
+    username: docker #${DATABASE_USERNAME}
+    password: docker #${DATABASE_PASSWORD}
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
