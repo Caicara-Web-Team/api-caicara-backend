@@ -4,9 +4,9 @@ spring:
   web:
     locale: pt_BR
   datasource:
-    url: "jdbc:postgresql://localhost:5432/caicara_db?useSSL=false&serverTimezone=America/Sao_paulo" #${DATABASE_URL}
-    username: docker #${DATABASE_USERNAME}
-    password: docker #${DATABASE_PASSWORD}
+    url: ${DATABASE_URL} #"jdbc:postgresql://localhost:5432/caicara_db?useSSL=false&serverTimezone=America/Sao_paulo" #${DATABASE_URL}
+    username: ${DATABASE_USERNAME}
+    password: ${DATABASE_PASSWORD}
   jpa:
     show-sql: true
     hibernate:
