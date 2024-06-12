@@ -49,6 +49,6 @@ GET   | /api/v1/stock/all | Sim - *adm*
 
 
 
-
+link da apresentação: [https://youtu.be/65HTckl-qQw](https://youtu.be/65HTckl-qQw)
 
 
